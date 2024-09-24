@@ -7,7 +7,7 @@
 // | 未获商业授权前，不得将本软件用于商业用途。禁止整体或任何部分基础上以发展任何派生版本、
 // | 修改版本或第三方版本用于重新分发。
 // +----------------------------------------------------------------------
-// | 官方网站: https://www.shopsuite.cn  https://www.golershop.cn
+// | 官方网站: https://www.shopsuite.cn  https://www.kuteshop.cn
 // +----------------------------------------------------------------------
 // | 版权和免责声明:
 // | 本公司对该软件产品拥有知识产权（包括但不限于商标权、专利权、著作权、商业秘密等）
@@ -16,6 +16,6 @@
 // | 止用于任何违反我国法律法规的一切项目研发，任何个人、组织和单位用于项目研发而产生的任何
 // | 意外、疏忽、合约毁坏、诽谤、版权或知识产权侵犯及其造成的损失 (包括但不限于直接、间接、
 // | 附带或衍生的损失等)，本团队不承担任何法律责任，本软件框架只能用于公司和个人内部的
-// | 法律所允许的合法合规的软件产品研发，详细见https://www.golershop.cn/policy
+// | 法律所允许的合法合规的软件产品研发，详细见https://www.shopsuite.cn/policy
 // +----------------------------------------------------------------------
  namespace Kuteshop\Core\Repository; interface BaseRepositoryEloquentInterface { public function add(array $tWbtB); public function edit($RxOxB, array $tWbtB); public function editWhere(array $ate9G, array $tWbtB); public function save(array $tWbtB); public function remove($RxOxB); public function removeWhere(array $ate9G); public function getOne($RxOxB); public function gets($afw6o); public function list(Criteria $rV3aw, $hiypA = null); public function listKey(Criteria $rV3aw, $hiypA = null); public function finds(array $ate9G); public function findKey(array $ate9G); public function findOne(array $ate9G); }
