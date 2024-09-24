@@ -1,0 +1,15 @@
+{
+    "name": "kuteshop/core",
+    "autoload": {
+        "psr-4": {
+            "Kuteshop\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hwang",
+            "email": "i@xinze.me"
+        }
+    ],
+    "require": {}
+}
