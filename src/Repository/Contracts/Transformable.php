@@ -18,4 +18,4 @@
 // | 附带或衍生的损失等)，本团队不承担任何法律责任，本软件框架只能用于公司和个人内部的
 // | 法律所允许的合法合规的软件产品研发，详细见https://www.shopsuite.cn/policy
 // +----------------------------------------------------------------------
- namespace Kuteshop\Core\Repository; interface BaseRepositoryEloquentInterface { public function add(array $MASFl); public function edit($YBLbm, array $MASFl); public function editWhere(array $wD6XC, array $MASFl); public function save(array $MASFl); public function remove($YBLbm); public function removeWhere(array $wD6XC); public function getOne($YBLbm); public function gets($Tt5VR); public function list(Criteria $k3Su8, $KHHBA = null); public function listKey(Criteria $k3Su8, $KHHBA = null); public function finds(array $wD6XC); public function findKey(array $wD6XC); public function findOne(array $wD6XC); }
+ namespace Kuteshop\Core\Repository\Contracts; interface Transformable { public function transform(); }
